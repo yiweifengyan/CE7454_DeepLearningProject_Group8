@@ -16,7 +16,7 @@ class simplynet(nn.Module):
         super(simplynet,self).__init__()
     
         # layer1, 3*640*360  --> 32*640*360 
-        self.conv1=nn.Conv2d(3,32,kernel_size=3,padding=1,bias=False)
+        self.conv1=nn.Conv2d(3,32,kernel_size=3,padding=1)
         # maxpool,32*640*360 --> 32*320*180
         self.pool1=nn.MaxPool2d(2,2)
     
@@ -106,12 +106,61 @@ class simplynet(nn.Module):
         # layer5,activation=leaky
         x=self.conv5(x)
         x=F.leaky_relu(x)
+        x=self.pool5(x)
 
         # layer6,activation=leaky
-        x=self.conv2(x)
+        x=self.conv6(x)
         x=F.leaky_relu(x)
-        x=self.pool6(x)
         
+        # layer7,activation=leaky
+        x=self.conv7(x)
+        x=F.leaky_relu(x)
+        
+        # layer8,activation=leaky
+        x=self.conv8(x)
+        x=F.leaky_relu(x)
+        x=self.pool8(x)
+        
+        # layer9,activation=leaky
+        x=self.conv9(x)
+        x=F.leaky_relu(x)
+        
+        # layer10,activation=leaky
+        x=self.conv10(x)
+        x=F.leaky_relu(x)
+        
+        # layer11,activation=leaky
+        x=self.conv11(x)
+        x=F.leaky_relu(x)
+        
+        # layer12,activation=leaky
+        x=self.conv12(x)
+        x=F.leaky_relu(x)
+        
+        # layer13,activation=leaky
+        x=self.conv13(x)
+        x=F.leaky_relu(x)
+        x=self.pool13(x)
+        
+        # layer14,activation=leaky
+        x=self.conv14(x)
+        x=F.leaky_relu(x)
+        
+        # layer15,activation=leaky
+        x=self.conv15(x)
+        x=F.leaky_relu(x)
+        
+        # layer16,activation=leaky
+        x=self.conv16(x)
+        x=F.leaky_relu(x)
+        
+        # layer17,activation=leaky
+        x=self.conv17(x)
+        x=F.leaky_relu(x)
+        
+        # layer18,activation=leaky
+        x=self.conv18(x)
+        x=F.leaky_relu(x)
         
         
         return(x)
