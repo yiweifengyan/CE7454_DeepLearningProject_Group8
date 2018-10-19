@@ -184,8 +184,6 @@ print(x.size())
 x=testnet(x)
 print(x.size())
 print(x)
-
-
 utils.show_prob(x)
 
     
