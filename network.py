@@ -2,6 +2,8 @@
 #The architecture of the neural network
 #Version 0.0 by Shuan, 2018-10-11
 #Finished first 18 layers of YOLOv2 by Shaun, 2018-10-12
+#Made it a simple net only for classification, by Shaun, 2018-10-19
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -10,6 +12,8 @@ from random import randint
 import time
 import utils
 
+
+#define the Neural Network
 class simplynet(nn.Module):
     
     def __init__(self):
@@ -26,7 +30,7 @@ class simplynet(nn.Module):
         self.pool2=nn.MaxPool2d(2,2)
     
         # layer3, 64*160*90 --> 128*160*90 
-        self.conv3=nn.Conv2d(64,128,kernel_size=1,padding=1)
+        self.conv3=nn.Conv2d(64,128,kernel_size=1,padding=0)
     
         # layer4, 128*160*90 --> 64*160*90 
         self.conv4=nn.Conv2d(128,64,kernel_size=3,padding=1)
@@ -40,7 +44,7 @@ class simplynet(nn.Module):
         self.conv6=nn.Conv2d(128,256,kernel_size=3,padding=1)
         
         # layer7, 256*80*45 --> 128*80*45 
-        self.conv7=nn.Conv2d(256,128,kernel_size=1,padding=1)
+        self.conv7=nn.Conv2d(256,128,kernel_size=1,padding=0)
         
         # layer8, 128*80*45 --> 256*80*45 
         self.conv8=nn.Conv2d(128,256,kernel_size=3,padding=1)
@@ -51,13 +55,13 @@ class simplynet(nn.Module):
         self.conv9=nn.Conv2d(256,512,kernel_size=3,padding=1)
         
         # layer10, 512*40*22 --> 256*40*22
-        self.conv10=nn.Conv2d(512,256,kernel_size=1,padding=1)
+        self.conv10=nn.Conv2d(512,256,kernel_size=1,padding=0)
         
         # layer11, 256*40*22 --> 512*40*22 
         self.conv11=nn.Conv2d(256,512,kernel_size=3,padding=1)
         
         # layer12, 512*40*22 --> 256*40*22
-        self.conv12=nn.Conv2d(512,256,kernel_size=1,padding=1)
+        self.conv12=nn.Conv2d(512,256,kernel_size=1,padding=0)
         
         # layer13, 256*40*22 --> 512*40*22 
         self.conv13=nn.Conv2d(256,512,kernel_size=3,padding=1)
@@ -68,19 +72,19 @@ class simplynet(nn.Module):
         self.conv14=nn.Conv2d(512,1024,kernel_size=3,padding=1)
         
         # layer15, 1024*20*11 --> 512*20*11
-        self.conv15=nn.Conv2d(1024,512,kernel_size=1,padding=1)
+        self.conv15=nn.Conv2d(1024,512,kernel_size=1,padding=0)
         
         # layer16, 512*20*11 --> 1024*20*11
         self.conv16=nn.Conv2d(512,1024,kernel_size=3,padding=1)
         
         # layer17, 1024*20*11 --> 512*20*11
-        self.conv17=nn.Conv2d(1024,512,kernel_size=1,padding=1)
+        self.conv17=nn.Conv2d(1024,512,kernel_size=1,padding=0)
         
         # layer18, 512*20*11 --> 1024*20*11
         self.conv18=nn.Conv2d(512,1024,kernel_size=3,padding=1)
         
-        
-        
+        # layer19, 1024*20*11 --> 12
+        self.conv19=nn.Conv2d(1024,12,kernel_size=(20,11),padding=0)
         
         
     def forward(self,x):
@@ -162,5 +166,26 @@ class simplynet(nn.Module):
         x=self.conv18(x)
         x=F.leaky_relu(x)
         
+        # layer19
+        x=self.conv19(x)
+        x=x.view(12)
+        x=F.softmax(x,dim=0)
         
         return(x)
+
+    
+# The codes below are for small scale testing
+bs=1
+x=torch.rand(bs,3,640,360)
+print(x.dim())
+utils.show(x[0])
+testnet=simplynet()
+print(x.size())
+x=testnet(x)
+print(x.size())
+print(x)
+
+
+utils.show_prob(x)
+
+    
