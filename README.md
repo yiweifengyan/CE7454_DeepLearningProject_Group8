@@ -3,6 +3,8 @@ The deep learning project of group 8 by Shaun and Emily.
 
 For Emily:
 
+Apart from your network,
+
 we need a train.py and an inference.py
 
 we need a visualize.py to see accurately the location of (x,y) in the image, or we will train with the wrong area.
