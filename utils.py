@@ -26,6 +26,49 @@ def show_template(template):
 	sns.heatmap(temp, cmap=cmap, ax=ax1, cbar=True,square=True,vmin=-vm, vmax=vm )  
 	plt.show()
 
+	
+def show_prob_drones(p, image):
+    p = p.data.squeeze().numpy()
+
+    ft = 15
+    label = ("boat", "building", "car", "drone", "group", "horseride", "paraglider", "person", "riding", "truck", "wakeboard", "whale")
+    y_pos = np.arange(len(p))*1.2
+    width = 0.9
+    col = 'blue'
+
+    plt.rcdefaults()
+    fig = plt.figure(figsize=(15, 10))
+
+    # the left plot
+    ax1 = plt.subplot(121)
+    ax1.barh(y_pos, p, width , align='center', color=col)
+    ax1.set_xlim([0, 1.3])
+
+    # y label
+    ax1.set_yticks(y_pos)
+    ax1.set_yticklabels(label, fontsize=ft)
+    ax1.invert_yaxis()
+
+    # x label
+    ax1.set_xticklabels([])
+    ax1.set_xticks([])
+
+    ax1.spines['right'].set_visible(False)
+    ax1.spines['top'].set_visible(False)
+    ax1.spines['bottom'].set_visible(False)
+    ax1.spines['left'].set_linewidth(4)
+
+    for i in range(len(p)):
+        str_nb="{0:.2f}".format(p[i])
+        ax1.text( p[i] + 0.05 , y_pos[i] ,str_nb ,
+                 horizontalalignment='left', verticalalignment='center',
+                 transform=ax1.transData, color= col,fontsize=ft)
+
+    # the right plot
+    plt.subplot(122)
+    plt.imshow(np.transpose(image.numpy(), (1, 2, 0)))
+
+    plt.show()
 
 
 def show_prob_mnist(p):
