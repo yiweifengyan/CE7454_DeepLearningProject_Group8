@@ -15,6 +15,6 @@ Cone on, my partner!
 
 For Shawn:
 
-train.py is completed. I don't know the bounding box case, either. I will finish the inference.py now and start for my network.
+train.py and inference.py is completed. I don't know the bounding box case, either. I will now start for my network.
 
 Go on!
