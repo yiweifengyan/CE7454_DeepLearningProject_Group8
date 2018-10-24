@@ -96,3 +96,11 @@ net = one_layer_net(3 * 360 * 640, 13)
 net = train (train_data, train_label, test_data, test_label, net, bs=20)
 list_of_param = list(net.parameters())
 print(list_of_param)
+
+import inference
+
+inference.inference(net, test_data[0])
+inference.inference(net, test_data[10])
+inference.inference(net, test_data[15])
+inference.inference(net, test_data[20])
+inference.inference(net, test_data[25])
