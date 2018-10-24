@@ -28,7 +28,7 @@ def read_data(folders):
     train_data_root = os.getcwd() + '\\' + folders[0]
     train_data_names = file_name(train_data_root)
     # Read in the images and transform them into tensors
-    train_data=torch.zeros([len(train_data_names),3,360,640])
+    train_data=torch.zeros([len(train_data_names),3,360,640], dtype=torch.float32)
     print(train_data.size())
     for i in range(len(train_data_names)):
         imgname=train_data_root+'\\'+train_data_names[i]
@@ -78,7 +78,7 @@ def read_data(folders):
 
     # There are five integters in the label: class, xmin, xmax, yminx ymax
     # Thus it's a matrix [items num, 5]
-    train_label=torch.zeros([len(train_label_names),5])
+    train_label=torch.zeros([len(train_label_names),5], dtype=torch.int64)
     print(train_label.type())
     print(train_label.size())
     for i in range(len(train_label_names)):
