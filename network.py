@@ -89,7 +89,6 @@ class simplynet(nn.Module):
         self.line19=nn.Linear(1024,12,bias=True)
         
         
-        
     def forward(self,x):
         
         # Layer1,activation=leaky
@@ -175,7 +174,6 @@ class simplynet(nn.Module):
         x=self.line19(x)
         #x=x.view(-1,12)
         x=F.softmax(x,dim=1)
-        
         
         return(x)
 
