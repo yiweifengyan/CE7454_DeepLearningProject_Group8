@@ -3,6 +3,7 @@
 #Version 0.0 by Shuan, 2018-10-11
 #Finished first 18 layers of YOLOv2 by Shaun, 2018-10-12
 #Made it a simple net only for classification, by Shaun, 2018-10-19
+#Fixed some bugs, by Shaun, 2018-10-25
 
 import torch
 import torch.nn as nn
@@ -80,11 +81,13 @@ class simplynet(nn.Module):
         # layer17, 1024*20*11 --> 512*20*11
         self.conv17=nn.Conv2d(1024,512,kernel_size=1,padding=0)
         
-        # layer18, 512*20*11 --> 1024*20*11
+        # layer18, 512*20*11 --> 1024
         self.conv18=nn.Conv2d(512,1024,kernel_size=3,padding=1)
+        self.pool18=nn.MaxPool2d((11,20),stride=1)
         
-        # layer19, 1024*20*11 --> 12
-        self.conv19=nn.Conv2d(1024,12,kernel_size=(20,11),padding=0)
+        # layer19, 1024 --> 12
+        self.line19=nn.Linear(1024,12,bias=True)
+        
         
         
     def forward(self,x):
@@ -165,25 +168,70 @@ class simplynet(nn.Module):
         # layer18,activation=leaky
         x=self.conv18(x)
         x=F.leaky_relu(x)
+        x=self.pool18(x)
+        x=x.view(-1,1024)
         
         # layer19
-        x=self.conv19(x)
-        x=x.view(12)
-        x=F.softmax(x,dim=0)
+        x=self.line19(x)
+        #x=x.view(-1,12)
+        x=F.softmax(x,dim=1)
+        
         
         return(x)
 
     
 # The codes below are for small scale testing
-bs=1
-x=torch.rand(bs,3,640,360)
+bs=20
+x=torch.rand(bs,3,360,640)
 print(x.dim())
 utils.show(x[0])
 testnet=simplynet()
 print(x.size())
 x=testnet(x)
 print(x.size())
-print(x)
-utils.show_prob(x)
+#print(x)
+utils.show_prob(x[0])
 
+# The codes below are for small scale training, it is useful
+import readimg_new
+train_data, train_label = readimg_new.read_data(["train_data", "train_label"])
+test_data, test_label = readimg_new.read_data(["test_data", "test_label"])
+train_label = train_label[:, 0]
+print(train_label.type())
+test_label = test_label[:, 0]
+
+device= torch.device("cuda")
+print(device)
+
+net = simplynet()
+#net=net.to(device)
+bs=5
+#net = train_simplynet(train_data, train_label, test_data, test_label, net, torch.optim.SGD, bs)
+criterion = nn.NLLLoss()
+optimizer=torch.optim.SGD(net.parameters() , lr=0.01 )
+
+for iter in range(1,200):
     
+    # create a minibatch
+    indices=torch.LongTensor(bs).random_(0,505)
+    minibatch_data = train_data[indices]
+    minibatch_label= train_label[indices]
+    print(minibatch_label.type())
+    # feed the input to the net  
+    inputs=minibatch_data
+    inputs.requires_grad_()
+    prob=net(inputs) 
+   
+    # update the weights (all the magic happens here -- we will discuss it later)
+    log_prob=torch.log(prob)
+    loss = criterion(log_prob, minibatch_label)    
+    optimizer.zero_grad()       
+    loss.backward()
+    optimizer.step()
+    
+x=test_data[100:105]
+print(x.size())
+x=net(x)
+print(x.size())
+for i in range(5):
+    utils.show_prob(x[i])
