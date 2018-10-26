@@ -157,5 +157,5 @@ def read_data(folders):
     data_dir=folders[0]
     data=read_image(data_dir)
     label_dir=folders[1]
-    label=read_image(label_dir)
+    label=read_xml(label_dir)
     return(data,label)
