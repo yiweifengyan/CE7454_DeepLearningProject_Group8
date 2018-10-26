@@ -7,6 +7,7 @@
 from PIL import Image
 import os
 import torchvision
+import torch
 
 # Obtain the file names in the floder
 def file_name(file_dir):
@@ -42,12 +43,12 @@ def getclass(name):
     return 12
     
     
-def read_image(folder)
+def read_image(folder):
     train_data_root = folder
     train_data_names=file_name(train_data_root)
 
     # Read in the images and transform them into tensors
-    train_data=torch.zeros([len(train_data_names),3,360,640],dtype=torch.float64)
+    train_data=torch.zeros([len(train_data_names),3,360,640],dtype=torch.float)
     for i in range(len(train_data_names)):
         imgname=train_data_root+'\\'+train_data_names[i]
         im=Image.open(imgname)
@@ -57,11 +58,11 @@ def read_image(folder)
     return(train_data)
 
 # Read in part of the images and transform them into tensors
-def read_part_image(folder,start,length)
+def read_part_image(folder,start,length):
     train_data_root = folder
     train_data_names=file_name(train_data_root)
     
-    train_data=torch.zeros([length,3,360,640],dtype=torch.float64)
+    train_data=torch.zeros([length,3,360,640],dtype=torch.float)
     local_num=0
     for i in range(len(train_data_names)):
         if (i>=start) and (i<start+length):
@@ -77,14 +78,14 @@ def read_part_image(folder,start,length)
 from xml.dom.minidom import parse
 import xml.dom.minidom
 
-def read_xml(floder)
+def read_xml(floder):
     # Get dictionary
     train_label_root = floder
     train_label_names=file_name(train_label_root)
     
     # There are five integters in the label: class, xmin, xmax, yminx ymax
     # Thus it's a matrix [items num, 5]
-    train_label=torch.zeros([len(train_label_names),5], dtype=torch.int32)
+    train_label=torch.zeros([len(train_label_names),5], dtype=torch.int64)
     for i in range(len(train_label_names)):
         labname=train_label_root+'\\'+train_label_names[i]
         lab=parse(labname)
@@ -112,14 +113,14 @@ def read_xml(floder)
 
     return(train_label)
 
-def read_part_xml(floder,start,length)
+def read_part_xml(floder,start,length):
     # Get dictionary
     train_label_root = floder
     train_label_names=file_name(train_label_root)
     
     # There are five integters in the label: class, xmin, xmax, yminx ymax
     # Thus it's a matrix [items num, 5]
-    train_label=torch.zeros([length,5], dtype=torch.int32)
+    train_label=torch.zeros([length,5], dtype=torch.int64)
     local_num=0
     for i in range(len(train_label_names)):
         if (i>=start) and (i<start+length):
