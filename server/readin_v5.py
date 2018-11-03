@@ -3,7 +3,7 @@
 # version 0.0, By Shaun, realized reading in all images in a folder and transformation, 2018-10-19
 # version 1.0, By Shaun, realized reading in all labels in a folder and trans them into a tensor, 2018-10-20
 # version 2.0, By Shaun, difined as functions and can read in any number of images and xmls, 2018-10-25
-# version 3.0, By Shaun, to run on Ubuntu server and the xml has been trans into [name, xmin, ymin, x-width, y-hight]
+# version 5.0, By Shaun, difine 80 classes, 2018-11-1
 
 from PIL import Image
 import os
@@ -17,32 +17,193 @@ def file_name(file_dir):
     
 # Define a function to convert labels into integters 
 def getclass(name):
-    if "boat" in name :
+    if "boat1" in name :
         return 0
-    if "building" in name:
+    if "boat2" in name :
+        return 0
+    if "boat3" in name :
+        return 0
+    if "boat4" in name :
         return 1
-    if "car" in name :
+    if "boat5" in name :
         return 2
-    if "drone" in name:
+    if "boat6" in name :
         return 3
-    if "group" in name :
+    if "boat7" in name :
         return 4
-    if "horseride" in name:
+    if "boat8" in name :
         return 5
-    if "paraglider" in name :
+    if "building1" in name:
         return 6
-    if "person" in name:
+    if "building2" in name:
         return 7
-    if "riding" in name :
+    if "building3" in name:
         return 8
-    if "truck" in name:
+    if ("car1" in name) and (len(name)==4) :
         return 9
-    if "wakeboard" in name :
+    if ("car2" in name) and (len(name)==4) :
         return 10
-    if "whale" in name:
+    if "car3" in name :
         return 11
-    return 12
+    if "car4" in name :
+        return 11
+    if "car5" in name :
+        return 11
+    if "car6" in name :
+        return 12
+    if "car8" in name :
+        return 12
+    if "car9" in name :
+        return 12
+    if "car10" in name :
+        return 13
+    if "car11" in name :
+        return 14
+    if "car12" in name :
+        return 15
+    if "car13" in name :
+        return 16
+    if "car14" in name :
+        return 17
+    if "car15" in name :
+        return 18
+    if "car16" in name :
+        return 19
+    if "car17" in name :
+        return 20
+    if "car18" in name :
+        return 21
+    if "car19" in name :
+        return 22
+    if "car20" in name :
+        return 23
+    if "car21" in name :
+        return 24
+    if "car22" in name :
+        return 25
+    if "car23" in name :
+        return 26
+    if "car24" in name :
+        return 27
+    if "drone1" in name:
+        return 28
+    if "drone2" in name:
+        return 29
+    if "drone3" in name:
+        return 30
+    if "drone4" in name:
+        return 28
+    if "group2" in name :
+        return 31
+    if "group3" in name :
+        return 32
+    if "horseride" in name:
+        return 33
+    if "paraglider" in name :
+        return 34
+    if ("person1" in name)and(len(name)==7):
+        return 35
+    if ("person2" in name)and(len(name)==7):
+        return 36
+    if "person3" in name:
+        return 37
+    if "person4" in name:
+        return 38
+    if "person5" in name:
+        return 39
+    if "person6" in name:
+        return 40
+    if "person7" in name:
+        return 41
+    if "person8" in name:
+        return 42
+    if "person9" in name:
+        return 43
+    if "person10" in name:
+        return 44
+    if "person11" in name:
+        return 44
+    if "person12" in name:
+        return 45
+    if "person13" in name:
+        return 45
+    if "person14" in name:
+        return 46
+    if "person15" in name:
+        return 47
+    if "person16" in name:
+        return 48
+    if "person17" in name:
+        return 49
+    if "person18" in name:
+        return 50
+    if "person19" in name:
+        return 50
+    if "person20" in name:
+        return 51
+    if "person21" in name:
+        return 52
+    if "person22" in name:
+        return 53
+    if "person23" in name:
+        return 54
+    if "person24" in name:
+        return 55
+    if "person25" in name:
+        return 56
+    if "person26" in name:
+        return 57
+    if "person27" in name:
+        return 58
+    if "person28" in name:
+        return 59
+    if "person29" in name:
+        return 60
+    if ("riding1" in name) and (len(name)==7) :
+        return 61
+    if "riding2" in name :
+        return 62
+    if "riding3" in name :
+        return 63
+    if "riding4" in name :
+        return 64
+    if "riding5" in name :
+        return 65
+    if "riding6" in name :
+        return 66
+    if "riding7" in name :
+        return 67
+    if "riding8" in name :
+        return 68
+    if "riding9" in name :
+        return 68
+    if "riding10" in name :
+        return 69
+    if "riding11" in name :
+        return 70
+    if "riding12" in name :
+        return 71
+    if "riding13" in name :
+        return 72
+    if "riding14" in name :
+        return 72
+    if "riding15" in name :
+        return 73
+    if "riding16" in name :
+        return 74
+    if "riding17" in name :
+        return 75
+    if "truck1" in name:
+        return 76
+    if "truck2" in name:
+        return 77
+    if "wakeboard" in name :
+        return 78
+    if "whale" in name:
+        return 79
+    return 80
     
+
     
 def read_image(folder):
     train_data_root = folder
