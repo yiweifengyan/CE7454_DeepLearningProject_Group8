@@ -1,0 +1,985 @@
+lr= 0.1
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 0  loss: 7.43 time: 7.05  accu= 2  iou= 0.0000
+batch no. 1  loss: 6.90 time: 13.26  accu= 0  iou= 0.0000
+batch no. 2  loss: 6.68 time: 19.35  accu= 0  iou= 0.0000
+batch no. 3  loss: 6.74 time: 25.51  accu= 2  iou= 0.0000
+batch no. 4  loss: 5.81 time: 31.64  accu= 0  iou= 0.0000
+step loss:  6.71 accu= 0.04  iou=0.0000
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 5  loss: 6.74 time: 38.55  accu= 0  iou= 0.0000
+batch no. 6  loss: 4.98 time: 44.83  accu= 3  iou= 0.0000
+batch no. 7  loss: 8.53 time: 50.89  accu= 1  iou= 0.0004
+batch no. 8  loss: 6.75 time: 57.02  accu= 0  iou= 0.0783
+batch no. 9  loss: 7.46 time: 63.15  accu= 0  iou= 0.0301
+step loss:  6.89 accu= 0.04  iou=0.0218
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 10  loss: 7.70 time: 70.08  accu= 2  iou= 0.0000
+batch no. 11  loss: 7.55 time: 76.13  accu= 0  iou= 0.0000
+batch no. 12  loss: 5.85 time: 82.23  accu= 1  iou= 0.0092
+batch no. 13  loss: 6.00 time: 88.39  accu= 3  iou= 0.0324
+batch no. 14  loss: 5.77 time: 94.55  accu= 2  iou= 0.0007
+step loss:  6.58 accu= 0.08  iou=0.0084
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 15  loss: 4.98 time: 101.67  accu= 0  iou= 0.0034
+batch no. 16  loss: 6.86 time: 107.85  accu= 1  iou= 0.0730
+batch no. 17  loss: 6.05 time: 113.96  accu= 0  iou= 0.0000
+batch no. 18  loss: 5.39 time: 119.98  accu= 1  iou= 0.0176
+batch no. 19  loss: 4.72 time: 126.11  accu= 0  iou= 0.0075
+step loss:  5.60 accu= 0.02  iou=0.0203
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 20  loss: 5.02 time: 134.07  accu= 1  iou= 0.0322
+batch no. 21  loss: 4.57 time: 140.05  accu= 2  iou= 0.0337
+batch no. 22  loss: 4.39 time: 146.00  accu= 2  iou= 0.0753
+batch no. 23  loss: 5.71 time: 152.11  accu= 0  iou= 0.0741
+batch no. 24  loss: 4.48 time: 158.14  accu= 2  iou= 0.0167
+step loss:  4.84 accu= 0.07  iou=0.0464
+lr= 0.05
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 25  loss: 4.35 time: 165.85  accu= 4  iou= 0.0419
+batch no. 26  loss: 4.02 time: 172.08  accu= 3  iou= 0.0833
+batch no. 27  loss: 3.11 time: 178.19  accu= 7  iou= 0.0377
+batch no. 28  loss: 3.36 time: 184.19  accu= 8  iou= 0.0249
+batch no. 29  loss: 3.91 time: 190.31  accu= 4  iou= 0.1057
+step loss:  3.75 accu= 0.26  iou=0.0587
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 30  loss: 3.36 time: 198.34  accu= 9  iou= 0.2012
+batch no. 31  loss: 3.36 time: 204.48  accu= 6  iou= 0.1192
+batch no. 32  loss: 3.87 time: 210.61  accu= 6  iou= 0.0671
+batch no. 33  loss: 4.13 time: 216.82  accu= 4  iou= 0.0481
+batch no. 34  loss: 2.74 time: 222.89  accu= 8  iou= 0.0193
+step loss:  3.49 accu= 0.33  iou=0.0910
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 35  loss: 2.57 time: 231.17  accu= 9  iou= 0.0636
+batch no. 36  loss: 2.28 time: 237.20  accu= 12  iou= 0.0256
+batch no. 37  loss: 3.56 time: 243.30  accu= 3  iou= 0.0589
+batch no. 38  loss: 2.54 time: 249.27  accu= 10  iou= 0.1262
+batch no. 39  loss: 3.40 time: 255.28  accu= 5  iou= 0.0655
+step loss:  2.87 accu= 0.39  iou=0.0680
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 40  loss: 3.03 time: 263.36  accu= 7  iou= 0.0744
+batch no. 41  loss: 2.85 time: 269.40  accu= 6  iou= 0.0515
+batch no. 42  loss: 2.98 time: 275.37  accu= 8  iou= 0.0957
+batch no. 43  loss: 2.63 time: 281.48  accu= 8  iou= 0.1007
+batch no. 44  loss: 2.69 time: 287.51  accu= 7  iou= 0.0680
+step loss:  2.83 accu= 0.36  iou=0.0781
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 45  loss: 2.68 time: 296.12  accu= 8  iou= 0.0935
+batch no. 46  loss: 1.89 time: 302.16  accu= 11  iou= 0.0311
+batch no. 47  loss: 2.35 time: 308.23  accu= 9  iou= 0.0667
+batch no. 48  loss: 2.78 time: 314.39  accu= 7  iou= 0.0231
+batch no. 49  loss: 2.18 time: 320.78  accu= 10  iou= 0.1095
+step loss:  2.38 accu= 0.45  iou=0.0648
+lr= 0.025
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 50  loss: 1.68 time: 328.88  accu= 12  iou= 0.0298
+batch no. 51  loss: 2.03 time: 334.95  accu= 9  iou= 0.0320
+batch no. 52  loss: 1.85 time: 341.07  accu= 13  iou= 0.1147
+batch no. 53  loss: 1.59 time: 347.14  accu= 15  iou= 0.1363
+batch no. 54  loss: 1.69 time: 353.26  accu= 11  iou= 0.0457
+step loss:  1.77 accu= 0.60  iou=0.0717
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 55  loss: 2.46 time: 361.13  accu= 8  iou= 0.0680
+batch no. 56  loss: 1.70 time: 367.14  accu= 12  iou= 0.1412
+batch no. 57  loss: 1.91 time: 373.21  accu= 12  iou= 0.1723
+batch no. 58  loss: 1.86 time: 379.32  accu= 10  iou= 0.0544
+batch no. 59  loss: 2.29 time: 385.26  accu= 12  iou= 0.0360
+step loss:  2.04 accu= 0.54  iou=0.0944
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 60  loss: 1.95 time: 393.19  accu= 13  iou= 0.0221
+batch no. 61  loss: 1.79 time: 399.37  accu= 13  iou= 0.0375
+batch no. 62  loss: 2.02 time: 405.48  accu= 10  iou= 0.0354
+batch no. 63  loss: 1.21 time: 411.50  accu= 15  iou= 0.0747
+batch no. 64  loss: 2.28 time: 417.56  accu= 14  iou= 0.0405
+step loss:  1.85 accu= 0.65  iou=0.0421
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 65  loss: 1.30 time: 425.48  accu= 14  iou= 0.1249
+batch no. 66  loss: 1.08 time: 431.52  accu= 15  iou= 0.0470
+batch no. 67  loss: 1.58 time: 437.61  accu= 12  iou= 0.0811
+batch no. 68  loss: 1.58 time: 443.68  accu= 13  iou= 0.0856
+batch no. 69  loss: 1.36 time: 449.74  accu= 15  iou= 0.0304
+step loss:  1.38 accu= 0.69  iou=0.0738
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 70  loss: 1.61 time: 458.01  accu= 15  iou= 0.0446
+batch no. 71  loss: 1.96 time: 463.96  accu= 11  iou= 0.0795
+batch no. 72  loss: 1.56 time: 469.89  accu= 10  iou= 0.0377
+batch no. 73  loss: 1.66 time: 476.03  accu= 14  iou= 0.0503
+batch no. 74  loss: 1.68 time: 482.14  accu= 13  iou= 0.0380
+step loss:  1.70 accu= 0.63  iou=0.0500
+lr= 0.0125
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 75  loss: 1.62 time: 490.51  accu= 11  iou= 0.0360
+batch no. 76  loss: 1.57 time: 496.69  accu= 13  iou= 0.1191
+batch no. 77  loss: 1.16 time: 502.92  accu= 16  iou= 0.1090
+batch no. 78  loss: 1.06 time: 509.05  accu= 16  iou= 0.0691
+batch no. 79  loss: 1.26 time: 515.32  accu= 14  iou= 0.1568
+step loss:  1.34 accu= 0.70  iou=0.0980
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 80  loss: 1.43 time: 523.46  accu= 14  iou= 0.0820
+batch no. 81  loss: 1.14 time: 529.64  accu= 17  iou= 0.0480
+batch no. 82  loss: 0.81 time: 535.83  accu= 18  iou= 0.0920
+batch no. 83  loss: 1.54 time: 541.80  accu= 12  iou= 0.0633
+batch no. 84  loss: 1.14 time: 547.89  accu= 14  iou= 0.1054
+step loss:  1.21 accu= 0.75  iou=0.0781
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 85  loss: 1.27 time: 555.99  accu= 15  iou= 0.1277
+batch no. 86  loss: 1.46 time: 562.12  accu= 17  iou= 0.0466
+batch no. 87  loss: 1.32 time: 568.25  accu= 13  iou= 0.0711
+batch no. 88  loss: 1.22 time: 574.37  accu= 16  iou= 0.1044
+batch no. 89  loss: 1.18 time: 580.37  accu= 18  iou= 0.1036
+step loss:  1.29 accu= 0.79  iou=0.0907
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 90  loss: 1.16 time: 588.46  accu= 17  iou= 0.1196
+batch no. 91  loss: 0.99 time: 594.67  accu= 15  iou= 0.0961
+batch no. 92  loss: 1.20 time: 600.66  accu= 16  iou= 0.0865
+batch no. 93  loss: 1.42 time: 606.76  accu= 14  iou= 0.0442
+batch no. 94  loss: 1.31 time: 612.86  accu= 15  iou= 0.0212
+step loss:  1.22 accu= 0.77  iou=0.0735
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 95  loss: 1.48 time: 621.23  accu= 15  iou= 0.0559
+batch no. 96  loss: 1.34 time: 627.24  accu= 17  iou= 0.0348
+batch no. 97  loss: 0.66 time: 633.29  accu= 18  iou= 0.1020
+batch no. 98  loss: 0.98 time: 639.35  accu= 16  iou= 0.0721
+batch no. 99  loss: 1.53 time: 645.47  accu= 11  iou= 0.0612
+step loss:  1.20 accu= 0.77  iou=0.0652
+lr= 0.00625
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 100  loss: 1.01 time: 654.09  accu= 18  iou= 0.0989
+batch no. 101  loss: 1.02 time: 660.17  accu= 15  iou= 0.0538
+batch no. 102  loss: 1.17 time: 666.21  accu= 15  iou= 0.1622
+batch no. 103  loss: 0.70 time: 672.26  accu= 19  iou= 0.0841
+batch no. 104  loss: 0.75 time: 678.41  accu= 17  iou= 0.1042
+step loss:  0.93 accu= 0.84  iou=0.1006
+
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 105  loss: 1.28 time: 686.67  accu= 17  iou= 0.0300
+batch no. 106  loss: 0.98 time: 692.92  accu= 16  iou= 0.1313
+batch no. 107  loss: 0.87 time: 698.86  accu= 18  iou= 0.1233
+batch no. 108  loss: 0.75 time: 704.87  accu= 18  iou= 0.0737
+batch no. 109  loss: 0.95 time: 710.97  accu= 19  iou= 0.0112
+step loss:  0.97 accu= 0.88  iou=0.0739
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 110  loss: 0.86 time: 719.12  accu= 16  iou= 0.0305
+batch no. 111  loss: 0.92 time: 725.17  accu= 18  iou= 0.1085
+batch no. 112  loss: 0.77 time: 731.19  accu= 17  iou= 0.1324
+batch no. 113  loss: 0.93 time: 737.28  accu= 18  iou= 0.0833
+batch no. 114  loss: 1.04 time: 743.39  accu= 17  iou= 0.0260
+step loss:  0.90 accu= 0.86  iou=0.0761
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 115  loss: 1.35 time: 751.60  accu= 16  iou= 0.1356
+batch no. 116  loss: 1.52 time: 757.60  accu= 13  iou= 0.0955
+batch no. 117  loss: 1.16 time: 763.73  accu= 15  iou= 0.1012
+batch no. 118  loss: 0.70 time: 769.70  accu= 17  iou= 0.1419
+batch no. 119  loss: 1.17 time: 775.81  accu= 18  iou= 0.0950
+step loss:  1.18 accu= 0.79  iou=0.1138
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 120  loss: 0.93 time: 784.01  accu= 15  iou= 0.0596
+batch no. 121  loss: 1.36 time: 790.06  accu= 15  iou= 0.0424
+batch no. 122  loss: 1.08 time: 796.11  accu= 15  iou= 0.0926
+batch no. 123  loss: 1.07 time: 802.22  accu= 16  iou= 0.0505
+batch no. 124  loss: 1.10 time: 808.30  accu= 15  iou= 0.0793
+step loss:  1.11 accu= 0.76  iou=0.0649
+lr= 0.003125
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 125  loss: 0.93 time: 816.70  accu= 15  iou= 0.1081
+batch no. 126  loss: 0.63 time: 822.83  accu= 18  iou= 0.1145
+batch no. 127  loss: 1.14 time: 828.89  accu= 16  iou= 0.0699
+batch no. 128  loss: 1.21 time: 834.99  accu= 16  iou= 0.0327
+batch no. 129  loss: 0.78 time: 840.88  accu= 17  iou= 0.0532
+step loss:  0.94 accu= 0.82  iou=0.0757
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 130  loss: 1.64 time: 849.11  accu= 14  iou= 0.0474
+batch no. 131  loss: 0.89 time: 855.11  accu= 19  iou= 0.0269
+batch no. 132  loss: 0.54 time: 861.23  accu= 20  iou= 0.1527
+batch no. 133  loss: 0.84 time: 867.50  accu= 17  iou= 0.0788
+batch no. 134  loss: 0.64 time: 873.60  accu= 19  iou= 0.1448
+step loss:  0.91 accu= 0.89  iou=0.0901
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 135  loss: 0.68 time: 881.67  accu= 19  iou= 0.0406
+batch no. 136  loss: 0.73 time: 887.71  accu= 19  iou= 0.1042
+batch no. 137  loss: 0.91 time: 893.87  accu= 18  iou= 0.1110
+batch no. 138  loss: 1.23 time: 899.89  accu= 15  iou= 0.0517
+batch no. 139  loss: 1.03 time: 905.94  accu= 18  iou= 0.0646
+step loss:  0.91 accu= 0.89  iou=0.0744
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 140  loss: 1.02 time: 913.86  accu= 16  iou= 0.1438
+batch no. 141  loss: 1.01 time: 920.07  accu= 17  iou= 0.0626
+batch no. 142  loss: 1.33 time: 926.27  accu= 15  iou= 0.0651
+batch no. 143  loss: 0.76 time: 932.48  accu= 19  iou= 0.1705
+batch no. 144  loss: 0.82 time: 938.50  accu= 18  iou= 0.0753
+step loss:  0.99 accu= 0.85  iou=0.1035
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 145  loss: 1.25 time: 946.89  accu= 18  iou= 0.0277
+batch no. 146  loss: 1.05 time: 953.11  accu= 16  iou= 0.1117
+batch no. 147  loss: 1.05 time: 959.19  accu= 16  iou= 0.0744
+batch no. 148  loss: 1.05 time: 965.17  accu= 17  iou= 0.0468
+batch no. 149  loss: 0.87 time: 971.22  accu= 16  iou= 0.1605
+step loss:  1.05 accu= 0.83  iou=0.0842
+lr= 0.0015625
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 150  loss: 1.11 time: 979.22  accu= 16  iou= 0.0709
+batch no. 151  loss: 0.98 time: 985.24  accu= 16  iou= 0.0728
+batch no. 152  loss: 0.96 time: 991.28  accu= 16  iou= 0.0297
+batch no. 153  loss: 0.86 time: 997.32  accu= 17  iou= 0.0794
+batch no. 154  loss: 0.78 time: 1003.39  accu= 17  iou= 0.0690
+step loss:  0.94 accu= 0.82  iou=0.0644
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 155  loss: 1.18 time: 1011.49  accu= 15  iou= 0.1295
+batch no. 156  loss: 1.17 time: 1017.56  accu= 16  iou= 0.1441
+batch no. 157  loss: 0.64 time: 1023.60  accu= 19  iou= 0.0326
+batch no. 158  loss: 1.06 time: 1029.68  accu= 16  iou= 0.1090
+batch no. 159  loss: 1.19 time: 1035.71  accu= 16  iou= 0.1111
+step loss:  1.05 accu= 0.82  iou=0.1053
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 160  loss: 0.81 time: 1043.74  accu= 19  iou= 0.0771
+batch no. 161  loss: 0.86 time: 1049.89  accu= 18  iou= 0.1330
+batch no. 162  loss: 0.99 time: 1055.83  accu= 17  iou= 0.1396
+batch no. 163  loss: 0.78 time: 1061.80  accu= 18  iou= 0.0862
+batch no. 164  loss: 1.20 time: 1067.82  accu= 13  iou= 0.0751
+step loss:  0.93 accu= 0.85  iou=0.1022
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 165  loss: 0.72 time: 1075.81  accu= 18  iou= 0.1313
+batch no. 166  loss: 0.77 time: 1081.81  accu= 17  iou= 0.0818
+batch no. 167  loss: 1.18 time: 1087.91  accu= 17  iou= 0.1110
+batch no. 168  loss: 0.79 time: 1093.90  accu= 15  iou= 0.0280
+batch no. 169  loss: 1.08 time: 1099.91  accu= 16  iou= 0.0731
+step loss:  0.91 accu= 0.83  iou=0.0850
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 170  loss: 0.90 time: 1107.96  accu= 16  iou= 0.1294
+batch no. 171  loss: 1.24 time: 1114.04  accu= 15  iou= 0.0342
+batch no. 172  loss: 1.29 time: 1120.04  accu= 14  iou= 0.0430
+batch no. 173  loss: 1.03 time: 1126.12  accu= 17  iou= 0.0623
+batch no. 174  loss: 0.67 time: 1132.21  accu= 18  iou= 0.1040
+step loss:  1.03 accu= 0.80  iou=0.0746
+lr= 0.00078125
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 175  loss: 0.96 time: 1140.56  accu= 17  iou= 0.0339
+batch no. 176  loss: 0.73 time: 1146.73  accu= 18  iou= 0.0402
+batch no. 177  loss: 0.83 time: 1152.73  accu= 17  iou= 0.1047
+batch no. 178  loss: 1.18 time: 1158.66  accu= 17  iou= 0.1841
+batch no. 179  loss: 0.99 time: 1164.69  accu= 15  iou= 0.1070
+step loss:  0.94 accu= 0.84  iou=0.0940
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 180  loss: 1.09 time: 1172.77  accu= 15  iou= 0.0823
+batch no. 181  loss: 0.72 time: 1178.89  accu= 17  iou= 0.0765
+batch no. 182  loss: 0.78 time: 1184.84  accu= 17  iou= 0.0670
+batch no. 183  loss: 0.99 time: 1190.85  accu= 18  iou= 0.0840
+batch no. 184  loss: 1.21 time: 1196.93  accu= 15  iou= 0.0943
+step loss:  0.96 accu= 0.82  iou=0.0808
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 185  loss: 0.83 time: 1205.06  accu= 17  iou= 0.0921
+batch no. 186  loss: 0.98 time: 1211.05  accu= 16  iou= 0.0582
+batch no. 187  loss: 1.06 time: 1217.04  accu= 14  iou= 0.0239
+batch no. 188  loss: 0.78 time: 1223.08  accu= 17  iou= 0.0485
+batch no. 189  loss: 1.24 time: 1229.10  accu= 16  iou= 0.0565
+step loss:  0.98 accu= 0.80  iou=0.0558
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 190  loss: 0.80 time: 1237.22  accu= 18  iou= 0.0249
+batch no. 191  loss: 0.69 time: 1243.15  accu= 17  iou= 0.0645
+batch no. 192  loss: 0.70 time: 1249.31  accu= 18  iou= 0.1456
+batch no. 193  loss: 0.88 time: 1255.34  accu= 18  iou= 0.1056
+batch no. 194  loss: 0.64 time: 1261.51  accu= 18  iou= 0.0486
+step loss:  0.74 accu= 0.89  iou=0.0778
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 195  loss: 1.34 time: 1269.58  accu= 14  iou= 0.0219
+batch no. 196  loss: 0.68 time: 1275.62  accu= 18  iou= 0.1225
+batch no. 197  loss: 0.65 time: 1281.65  accu= 19  iou= 0.0616
+batch no. 198  loss: 1.26 time: 1287.69  accu= 15  iou= 0.1431
+batch no. 199  loss: 0.90 time: 1293.80  accu= 16  iou= 0.0521
+step loss:  0.97 accu= 0.82  iou=0.0802
+lr= 0.000390625
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 200  loss: 0.89 time: 1302.32  accu= 15  iou= 0.0938
+batch no. 201  loss: 1.26 time: 1308.30  accu= 18  iou= 0.0262
+batch no. 202  loss: 1.03 time: 1314.50  accu= 18  iou= 0.0815
+batch no. 203  loss: 0.90 time: 1320.52  accu= 18  iou= 0.0367
+batch no. 204  loss: 0.72 time: 1326.62  accu= 17  iou= 0.0932
+step loss:  0.96 accu= 0.86  iou=0.0663
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 205  loss: 0.64 time: 1334.77  accu= 19  iou= 0.1148
+
+batch no. 206  loss: 0.68 time: 1340.96  accu= 18  iou= 0.0714
+batch no. 207  loss: 0.96 time: 1346.98  accu= 16  iou= 0.1074
+batch no. 208  loss: 0.83 time: 1353.08  accu= 17  iou= 0.0237
+batch no. 209  loss: 0.95 time: 1359.14  accu= 17  iou= 0.0328
+step loss:  0.81 accu= 0.87  iou=0.0700
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 210  loss: 0.82 time: 1367.34  accu= 18  iou= 0.0580
+batch no. 211  loss: 0.82 time: 1373.37  accu= 18  iou= 0.0930
+batch no. 212  loss: 0.87 time: 1379.39  accu= 17  iou= 0.0575
+batch no. 213  loss: 0.77 time: 1385.43  accu= 18  iou= 0.0651
+batch no. 214  loss: 1.01 time: 1391.42  accu= 17  iou= 0.0357
+step loss:  0.86 accu= 0.88  iou=0.0619
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 215  loss: 0.89 time: 1399.50  accu= 18  iou= 0.0573
+batch no. 216  loss: 0.96 time: 1405.53  accu= 17  iou= 0.0584
+batch no. 217  loss: 1.04 time: 1411.66  accu= 17  iou= 0.0716
+batch no. 218  loss: 0.89 time: 1417.75  accu= 16  iou= 0.0482
+batch no. 219  loss: 0.81 time: 1423.78  accu= 18  iou= 0.0616
+step loss:  0.92 accu= 0.86  iou=0.0594
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 220  loss: 1.15 time: 1432.02  accu= 16  iou= 0.0292
+batch no. 221  loss: 0.80 time: 1437.94  accu= 17  iou= 0.0720
+batch no. 222  loss: 1.14 time: 1443.94  accu= 14  iou= 0.0526
+batch no. 223  loss: 0.88 time: 1449.98  accu= 19  iou= 0.1424
+batch no. 224  loss: 1.29 time: 1455.94  accu= 15  iou= 0.1166
+step loss:  1.05 accu= 0.81  iou=0.0826
+lr= 0.0001953125
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 225  loss: 0.56 time: 1464.29  accu= 19  iou= 0.0249
+batch no. 226  loss: 0.91 time: 1470.37  accu= 15  iou= 0.0730
+batch no. 227  loss: 0.77 time: 1476.50  accu= 18  iou= 0.0490
+batch no. 228  loss: 1.07 time: 1482.49  accu= 16  iou= 0.0620
+batch no. 229  loss: 0.91 time: 1488.44  accu= 17  iou= 0.0386
+step loss:  0.84 accu= 0.85  iou=0.0495
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 230  loss: 0.58 time: 1496.92  accu= 18  iou= 0.1479
+batch no. 231  loss: 0.96 time: 1502.94  accu= 16  iou= 0.0687
+batch no. 232  loss: 0.61 time: 1508.96  accu= 18  iou= 0.0497
+batch no. 233  loss: 0.68 time: 1515.03  accu= 19  iou= 0.0719
+batch no. 234  loss: 0.57 time: 1521.01  accu= 18  iou= 0.0946
+step loss:  0.68 accu= 0.89  iou=0.0866
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 235  loss: 0.98 time: 1529.71  accu= 15  iou= 0.1045
+batch no. 236  loss: 0.68 time: 1535.78  accu= 15  iou= 0.1222
+batch no. 237  loss: 0.59 time: 1541.86  accu= 19  iou= 0.2032
+batch no. 238  loss: 1.10 time: 1547.82  accu= 14  iou= 0.0838
+batch no. 239  loss: 0.68 time: 1553.85  accu= 19  iou= 0.0672
+step loss:  0.81 accu= 0.82  iou=0.1162
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 240  loss: 0.76 time: 1561.91  accu= 18  iou= 0.0469
+batch no. 241  loss: 0.79 time: 1567.90  accu= 19  iou= 0.0997
+batch no. 242  loss: 1.01 time: 1573.83  accu= 17  iou= 0.0846
+batch no. 243  loss: 0.77 time: 1579.80  accu= 17  iou= 0.1028
+batch no. 244  loss: 0.68 time: 1585.77  accu= 18  iou= 0.0820
+step loss:  0.80 accu= 0.89  iou=0.0832
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 245  loss: 0.87 time: 1594.11  accu= 15  iou= 0.0419
+batch no. 246  loss: 0.94 time: 1600.10  accu= 17  iou= 0.1665
+batch no. 247  loss: 1.73 time: 1606.20  accu= 13  iou= 0.1693
+batch no. 248  loss: 1.22 time: 1612.24  accu= 16  iou= 0.0987
+batch no. 249  loss: 0.61 time: 1618.28  accu= 18  iou= 0.0750
+step loss:  1.08 accu= 0.79  iou=0.1103
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 250  loss: 0.68 time: 1626.31  accu= 18  iou= 0.0669
+batch no. 251  loss: 1.29 time: 1632.42  accu= 13  iou= 0.0467
+batch no. 252  loss: 0.74 time: 1638.59  accu= 18  iou= 0.0536
+batch no. 253  loss: 0.66 time: 1644.63  accu= 19  iou= 0.0843
+batch no. 254  loss: 0.69 time: 1650.83  accu= 17  iou= 0.0384
+step loss:  0.81 accu= 0.85  iou=0.0580
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 255  loss: 0.95 time: 1659.26  accu= 16  iou= 0.0965
+batch no. 256  loss: 1.04 time: 1665.21  accu= 18  iou= 0.0845
+batch no. 257  loss: 0.91 time: 1671.29  accu= 16  iou= 0.0656
+batch no. 258  loss: 0.96 time: 1677.26  accu= 17  iou= 0.0680
+batch no. 259  loss: 1.29 time: 1683.27  accu= 16  iou= 0.1381
+step loss:  1.03 accu= 0.83  iou=0.0905
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 260  loss: 0.96 time: 1691.51  accu= 19  iou= 0.0587
+batch no. 261  loss: 0.95 time: 1697.46  accu= 18  iou= 0.0574
+batch no. 262  loss: 1.09 time: 1703.42  accu= 16  iou= 0.0080
+batch no. 263  loss: 0.97 time: 1709.49  accu= 14  iou= 0.1456
+batch no. 264  loss: 0.88 time: 1715.52  accu= 17  iou= 0.0249
+step loss:  0.97 accu= 0.84  iou=0.0589
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 265  loss: 0.96 time: 1723.85  accu= 18  iou= 0.0642
+batch no. 266  loss: 1.21 time: 1729.83  accu= 16  iou= 0.1214
+batch no. 267  loss: 1.37 time: 1735.81  accu= 16  iou= 0.0681
+batch no. 268  loss: 0.59 time: 1741.83  accu= 19  iou= 0.0590
+batch no. 269  loss: 0.80 time: 1747.78  accu= 18  iou= 0.0885
+step loss:  0.98 accu= 0.87  iou=0.0802
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 270  loss: 0.53 time: 1755.88  accu= 20  iou= 0.0650
+batch no. 271  loss: 1.15 time: 1761.98  accu= 14  iou= 0.0430
+batch no. 272  loss: 1.16 time: 1767.96  accu= 17  iou= 0.0934
+batch no. 273  loss: 0.53 time: 1773.86  accu= 19  iou= 0.0320
+batch no. 274  loss: 1.05 time: 1780.01  accu= 17  iou= 0.1606
+step loss:  0.88 accu= 0.87  iou=0.0788
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 275  loss: 0.66 time: 1788.16  accu= 20  iou= 0.0899
+batch no. 276  loss: 0.89 time: 1794.16  accu= 18  iou= 0.0657
+batch no. 277  loss: 0.92 time: 1800.19  accu= 18  iou= 0.0962
+batch no. 278  loss: 0.58 time: 1806.19  accu= 18  iou= 0.0685
+batch no. 279  loss: 0.95 time: 1812.27  accu= 17  iou= 0.0550
+step loss:  0.80 accu= 0.91  iou=0.0751
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 280  loss: 0.63 time: 1820.23  accu= 19  iou= 0.1395
+batch no. 281  loss: 0.83 time: 1826.22  accu= 18  iou= 0.0968
+batch no. 282  loss: 0.68 time: 1832.45  accu= 18  iou= 0.0793
+batch no. 283  loss: 0.77 time: 1838.60  accu= 18  iou= 0.1103
+batch no. 284  loss: 1.21 time: 1844.78  accu= 14  iou= 0.1058
+step loss:  0.82 accu= 0.87  iou=0.1063
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 285  loss: 0.79 time: 1852.79  accu= 18  iou= 0.0322
+batch no. 286  loss: 0.88 time: 1858.97  accu= 17  iou= 0.0562
+batch no. 287  loss: 1.26 time: 1864.96  accu= 13  iou= 0.0419
+batch no. 288  loss: 0.78 time: 1871.06  accu= 18  iou= 0.0978
+batch no. 289  loss: 0.76 time: 1876.93  accu= 18  iou= 0.0843
+step loss:  0.90 accu= 0.84  iou=0.0625
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 290  loss: 1.01 time: 1884.76  accu= 17  iou= 0.0841
+batch no. 291  loss: 1.16 time: 1891.02  accu= 16  iou= 0.0492
+batch no. 292  loss: 0.44 time: 1896.99  accu= 20  iou= 0.0622
+batch no. 293  loss: 1.55 time: 1903.08  accu= 16  iou= 0.0290
+batch no. 294  loss: 0.44 time: 1909.28  accu= 19  iou= 0.0890
+step loss:  0.92 accu= 0.88  iou=0.0627
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 295  loss: 0.93 time: 1917.23  accu= 17  iou= 0.0945
+batch no. 296  loss: 0.96 time: 1923.34  accu= 18  iou= 0.0845
+batch no. 297  loss: 0.69 time: 1929.42  accu= 20  iou= 0.0607
+batch no. 298  loss: 0.70 time: 1935.50  accu= 18  iou= 0.0893
+batch no. 299  loss: 0.73 time: 1941.59  accu= 17  iou= 0.0477
+step loss:  0.80 accu= 0.90  iou=0.0754
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 0  loss: 0.96 time: 1944.71  accu= 17  iou= 0.0505
+small_batch no. 1  loss: 0.67 time: 1947.35  accu= 20  iou= 0.0535
+small_batch no. 2  loss: 0.72 time: 1950.08  accu= 16  iou= 0.0683
+small_batch no. 3  loss: 1.15 time: 1952.60  accu= 17  iou= 0.0218
+small_batch no. 4  loss: 1.06 time: 1955.10  accu= 16  iou= 0.0322
+small_step loss:  0.91 accu= 0.86  iou=0.0452
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 5  loss: 0.90 time: 1958.50  accu= 16  iou= 0.0929
+small_batch no. 6  loss: 0.89 time: 1961.19  accu= 18  iou= 0.1932
+
+small_batch no. 7  loss: 1.12 time: 1963.86  accu= 15  iou= 0.1287
+small_batch no. 8  loss: 0.91 time: 1966.39  accu= 17  iou= 0.0696
+small_batch no. 9  loss: 1.09 time: 1969.14  accu= 18  iou= 0.0222
+small_step loss:  0.98 accu= 0.84  iou=0.1013
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 10  loss: 0.56 time: 1972.65  accu= 20  iou= 0.0752
+small_batch no. 11  loss: 1.05 time: 1975.39  accu= 17  iou= 0.0854
+small_batch no. 12  loss: 0.63 time: 1978.00  accu= 18  iou= 0.0907
+small_batch no. 13  loss: 0.78 time: 1980.66  accu= 19  iou= 0.0818
+small_batch no. 14  loss: 0.98 time: 1983.28  accu= 14  iou= 0.0931
+small_step loss:  0.80 accu= 0.88  iou=0.0853
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 15  loss: 1.02 time: 1986.59  accu= 17  iou= 0.1098
+small_batch no. 16  loss: 0.87 time: 1989.31  accu= 19  iou= 0.0323
+small_batch no. 17  loss: 0.85 time: 1991.97  accu= 17  iou= 0.0822
+small_batch no. 18  loss: 0.64 time: 1994.70  accu= 19  iou= 0.0294
+small_batch no. 19  loss: 0.75 time: 1997.34  accu= 18  iou= 0.0478
+small_step loss:  0.83 accu= 0.90  iou=0.0603
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 20  loss: 0.97 time: 2000.80  accu= 17  iou= 0.0472
+small_batch no. 21  loss: 0.79 time: 2003.47  accu= 18  iou= 0.0916
+small_batch no. 22  loss: 0.81 time: 2006.17  accu= 18  iou= 0.1058
+small_batch no. 23  loss: 0.61 time: 2008.89  accu= 17  iou= 0.0431
+small_batch no. 24  loss: 0.58 time: 2011.58  accu= 20  iou= 0.0839
+small_step loss:  0.75 accu= 0.90  iou=0.0743
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 25  loss: 1.57 time: 2014.92  accu= 14  iou= 0.0170
+small_batch no. 26  loss: 0.93 time: 2017.58  accu= 18  iou= 0.0586
+small_batch no. 27  loss: 0.83 time: 2020.22  accu= 17  iou= 0.1279
+small_batch no. 28  loss: 0.80 time: 2022.76  accu= 18  iou= 0.1197
+small_batch no. 29  loss: 0.80 time: 2025.36  accu= 18  iou= 0.0662
+small_step loss:  0.99 accu= 0.85  iou=0.0779
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 30  loss: 0.68 time: 2028.60  accu= 17  iou= 0.0800
+small_batch no. 31  loss: 0.99 time: 2031.22  accu= 17  iou= 0.0572
+small_batch no. 32  loss: 0.93 time: 2033.81  accu= 19  iou= 0.0964
+small_batch no. 33  loss: 0.85 time: 2036.48  accu= 16  iou= 0.1081
+small_batch no. 34  loss: 0.90 time: 2039.15  accu= 17  iou= 0.0885
+small_step loss:  0.87 accu= 0.86  iou=0.0860
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 35  loss: 0.57 time: 2042.57  accu= 19  iou= 0.2112
+small_batch no. 36  loss: 0.74 time: 2045.26  accu= 19  iou= 0.0440
+small_batch no. 37  loss: 1.12 time: 2047.83  accu= 15  iou= 0.1112
+small_batch no. 38  loss: 0.96 time: 2050.47  accu= 16  iou= 0.0723
+small_batch no. 39  loss: 0.82 time: 2053.01  accu= 18  iou= 0.0861
+small_step loss:  0.84 accu= 0.87  iou=0.1050
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 40  loss: 0.83 time: 2056.43  accu= 17  iou= 0.1250
+small_batch no. 41  loss: 0.86 time: 2059.07  accu= 17  iou= 0.0560
+small_batch no. 42  loss: 1.06 time: 2061.79  accu= 17  iou= 0.0930
+small_batch no. 43  loss: 0.84 time: 2064.55  accu= 18  iou= 0.0725
+small_batch no. 44  loss: 1.26 time: 2067.23  accu= 15  iou= 0.0934
+small_step loss:  0.97 accu= 0.84  iou=0.0880
+small loss: 0.88 accu= 0.87  iou=0.0804
+lr= 0.0001953125
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 0  loss: 1.10 time: 2074.47  accu= 17  iou= 0.1041
+batch no. 1  loss: 0.80 time: 2080.69  accu= 17  iou= 0.0888
+batch no. 2  loss: 0.89 time: 2086.74  accu= 16  iou= 0.1307
+batch no. 3  loss: 1.08 time: 2092.78  accu= 18  iou= 0.0696
+batch no. 4  loss: 0.64 time: 2098.83  accu= 19  iou= 0.0632
+step loss:  0.90 accu= 0.87  iou=0.0913
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 5  loss: 0.65 time: 2105.51  accu= 18  iou= 0.0735
+batch no. 6  loss: 0.73 time: 2111.54  accu= 18  iou= 0.0868
+batch no. 7  loss: 1.46 time: 2117.51  accu= 15  iou= 0.0399
+batch no. 8  loss: 0.65 time: 2123.47  accu= 18  iou= 0.1105
+batch no. 9  loss: 0.97 time: 2129.54  accu= 15  iou= 0.0356
+step loss:  0.89 accu= 0.84  iou=0.0693
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 10  loss: 1.03 time: 2136.52  accu= 17  iou= 0.0511
+batch no. 11  loss: 1.04 time: 2142.57  accu= 16  iou= 0.0296
+batch no. 12  loss: 0.66 time: 2148.65  accu= 19  iou= 0.0210
+batch no. 13  loss: 0.57 time: 2154.85  accu= 19  iou= 0.0483
+batch no. 14  loss: 0.78 time: 2160.96  accu= 18  iou= 0.0479
+step loss:  0.81 accu= 0.89  iou=0.0396
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 15  loss: 0.65 time: 2167.74  accu= 17  iou= 0.0415
+batch no. 16  loss: 0.91 time: 2173.63  accu= 18  iou= 0.0885
+batch no. 17  loss: 0.64 time: 2179.67  accu= 18  iou= 0.1157
+batch no. 18  loss: 0.70 time: 2185.62  accu= 17  iou= 0.0502
+batch no. 19  loss: 0.62 time: 2191.67  accu= 19  iou= 0.1449
+step loss:  0.70 accu= 0.89  iou=0.0882
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 20  loss: 0.43 time: 2198.65  accu= 20  iou= 0.0916
+batch no. 21  loss: 0.91 time: 2204.85  accu= 18  iou= 0.1074
+batch no. 22  loss: 0.62 time: 2210.91  accu= 18  iou= 0.0948
+batch no. 23  loss: 0.64 time: 2216.99  accu= 19  iou= 0.0782
+batch no. 24  loss: 0.80 time: 2223.07  accu= 19  iou= 0.0695
+step loss:  0.68 accu= 0.94  iou=0.0883
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 25  loss: 0.67 time: 2230.04  accu= 16  iou= 0.1236
+batch no. 26  loss: 0.60 time: 2235.96  accu= 18  iou= 0.0635
+batch no. 27  loss: 0.89 time: 2241.88  accu= 16  iou= 0.0527
+batch no. 28  loss: 0.57 time: 2247.92  accu= 19  iou= 0.0450
+batch no. 29  loss: 0.95 time: 2253.97  accu= 15  iou= 0.0499
+step loss:  0.73 accu= 0.84  iou=0.0669
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 30  loss: 0.45 time: 2260.89  accu= 20  iou= 0.1176
+batch no. 31  loss: 0.92 time: 2266.97  accu= 19  iou= 0.1096
+batch no. 32  loss: 0.70 time: 2272.97  accu= 17  iou= 0.0924
+batch no. 33  loss: 0.70 time: 2279.03  accu= 18  iou= 0.0092
+batch no. 34  loss: 0.51 time: 2285.15  accu= 19  iou= 0.0906
+step loss:  0.65 accu= 0.93  iou=0.0839
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 35  loss: 0.52 time: 2292.08  accu= 19  iou= 0.0568
+batch no. 36  loss: 0.64 time: 2298.21  accu= 20  iou= 0.0634
+batch no. 37  loss: 0.86 time: 2304.29  accu= 17  iou= 0.1165
+batch no. 38  loss: 0.92 time: 2310.52  accu= 17  iou= 0.1824
+batch no. 39  loss: 1.24 time: 2316.52  accu= 17  iou= 0.0705
+step loss:  0.84 accu= 0.90  iou=0.0979
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 40  loss: 0.69 time: 2323.44  accu= 18  iou= 0.0666
+batch no. 41  loss: 0.87 time: 2329.51  accu= 18  iou= 0.0290
+batch no. 42  loss: 0.74 time: 2335.61  accu= 16  iou= 0.0929
+batch no. 43  loss: 1.14 time: 2341.66  accu= 15  iou= 0.0806
+batch no. 44  loss: 0.88 time: 2347.66  accu= 15  iou= 0.0599
+step loss:  0.86 accu= 0.82  iou=0.0658
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 45  loss: 0.66 time: 2354.56  accu= 19  iou= 0.1528
+batch no. 46  loss: 0.52 time: 2360.73  accu= 19  iou= 0.0616
+batch no. 47  loss: 0.84 time: 2366.77  accu= 17  iou= 0.0685
+batch no. 48  loss: 0.69 time: 2372.84  accu= 19  iou= 0.0415
+batch no. 49  loss: 0.65 time: 2378.86  accu= 20  iou= 0.1535
+step loss:  0.67 accu= 0.94  iou=0.0956
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 50  loss: 0.76 time: 2385.82  accu= 18  iou= 0.0172
+batch no. 51  loss: 0.56 time: 2391.97  accu= 19  iou= 0.0686
+batch no. 52  loss: 0.73 time: 2398.06  accu= 18  iou= 0.0615
+batch no. 53  loss: 0.47 time: 2404.22  accu= 20  iou= 0.1050
+batch no. 54  loss: 0.69 time: 2410.29  accu= 18  iou= 0.0891
+step loss:  0.64 accu= 0.93  iou=0.0683
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 55  loss: 1.08 time: 2417.33  accu= 17  iou= 0.0637
+batch no. 56  loss: 0.70 time: 2423.48  accu= 17  iou= 0.1366
+batch no. 57  loss: 1.03 time: 2429.60  accu= 15  iou= 0.1071
+batch no. 58  loss: 0.84 time: 2435.69  accu= 18  iou= 0.0693
+batch no. 59  loss: 1.03 time: 2441.78  accu= 16  iou= 0.0375
+step loss:  0.93 accu= 0.83  iou=0.0828
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+
+batch no. 60  loss: 0.64 time: 2448.75  accu= 19  iou= 0.0233
+batch no. 61  loss: 0.69 time: 2454.73  accu= 18  iou= 0.0755
+batch no. 62  loss: 0.67 time: 2460.85  accu= 19  iou= 0.0524
+batch no. 63  loss: 0.57 time: 2466.88  accu= 20  iou= 0.0398
+batch no. 64  loss: 1.14 time: 2473.04  accu= 17  iou= 0.0388
+step loss:  0.74 accu= 0.93  iou=0.0460
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 65  loss: 0.67 time: 2479.87  accu= 19  iou= 0.1061
+batch no. 66  loss: 0.52 time: 2485.96  accu= 20  iou= 0.0914
+batch no. 67  loss: 0.67 time: 2492.01  accu= 18  iou= 0.0578
+batch no. 68  loss: 0.59 time: 2497.99  accu= 18  iou= 0.0868
+batch no. 69  loss: 0.63 time: 2504.05  accu= 19  iou= 0.0265
+step loss:  0.61 accu= 0.94  iou=0.0737
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 70  loss: 0.83 time: 2510.89  accu= 20  iou= 0.0710
+batch no. 71  loss: 0.73 time: 2517.11  accu= 18  iou= 0.0940
+batch no. 72  loss: 0.77 time: 2523.25  accu= 18  iou= 0.0379
+batch no. 73  loss: 0.88 time: 2529.27  accu= 18  iou= 0.1013
+batch no. 74  loss: 0.63 time: 2535.43  accu= 19  iou= 0.0560
+step loss:  0.77 accu= 0.93  iou=0.0720
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 75  loss: 0.70 time: 2542.23  accu= 16  iou= 0.0494
+batch no. 76  loss: 0.92 time: 2548.41  accu= 16  iou= 0.0493
+batch no. 77  loss: 0.75 time: 2554.65  accu= 18  iou= 0.0468
+batch no. 78  loss: 0.62 time: 2560.84  accu= 19  iou= 0.0872
+batch no. 79  loss: 0.59 time: 2566.99  accu= 20  iou= 0.1553
+step loss:  0.72 accu= 0.89  iou=0.0776
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 80  loss: 0.81 time: 2573.92  accu= 18  iou= 0.1605
+batch no. 81  loss: 0.81 time: 2580.06  accu= 19  iou= 0.0730
+batch no. 82  loss: 0.55 time: 2586.10  accu= 20  iou= 0.0784
+batch no. 83  loss: 0.82 time: 2592.19  accu= 17  iou= 0.0751
+batch no. 84  loss: 0.61 time: 2598.41  accu= 18  iou= 0.0614
+step loss:  0.72 accu= 0.92  iou=0.0897
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 85  loss: 0.77 time: 2605.49  accu= 18  iou= 0.0991
+batch no. 86  loss: 0.81 time: 2611.63  accu= 19  iou= 0.0344
+batch no. 87  loss: 0.72 time: 2617.78  accu= 17  iou= 0.0509
+batch no. 88  loss: 0.81 time: 2623.86  accu= 18  iou= 0.0628
+batch no. 89  loss: 0.87 time: 2629.94  accu= 18  iou= 0.0968
+step loss:  0.80 accu= 0.90  iou=0.0688
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 90  loss: 0.79 time: 2636.80  accu= 20  iou= 0.1021
+batch no. 91  loss: 0.61 time: 2643.00  accu= 17  iou= 0.0879
+batch no. 92  loss: 0.85 time: 2649.08  accu= 19  iou= 0.0751
+batch no. 93  loss: 0.84 time: 2655.17  accu= 16  iou= 0.0496
+batch no. 94  loss: 1.02 time: 2661.20  accu= 16  iou= 0.0213
+step loss:  0.82 accu= 0.88  iou=0.0672
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 95  loss: 0.90 time: 2668.25  accu= 17  iou= 0.0380
+batch no. 96  loss: 0.88 time: 2674.32  accu= 19  iou= 0.0664
+batch no. 97  loss: 0.42 time: 2680.58  accu= 20  iou= 0.1203
+batch no. 98  loss: 0.64 time: 2686.80  accu= 19  iou= 0.0868
+batch no. 99  loss: 1.03 time: 2692.93  accu= 15  iou= 0.0404
+step loss:  0.77 accu= 0.90  iou=0.0704
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 100  loss: 0.64 time: 2699.81  accu= 20  iou= 0.1132
+batch no. 101  loss: 0.77 time: 2705.89  accu= 17  iou= 0.0694
+batch no. 102  loss: 0.91 time: 2711.90  accu= 15  iou= 0.1157
+batch no. 103  loss: 0.56 time: 2717.85  accu= 19  iou= 0.0598
+batch no. 104  loss: 0.47 time: 2723.77  accu= 19  iou= 0.1354
+step loss:  0.67 accu= 0.90  iou=0.0987
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 105  loss: 0.96 time: 2730.56  accu= 17  iou= 0.0342
+batch no. 106  loss: 0.76 time: 2736.89  accu= 19  iou= 0.1397
+batch no. 107  loss: 0.62 time: 2742.96  accu= 19  iou= 0.1247
+batch no. 108  loss: 0.57 time: 2749.10  accu= 18  iou= 0.0934
+batch no. 109  loss: 0.68 time: 2755.21  accu= 20  iou= 0.0401
+step loss:  0.72 accu= 0.93  iou=0.0864
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 110  loss: 0.60 time: 2762.15  accu= 19  iou= 0.0350
+batch no. 111  loss: 0.68 time: 2768.18  accu= 19  iou= 0.0713
+batch no. 112  loss: 0.61 time: 2774.34  accu= 18  iou= 0.1231
+batch no. 113  loss: 0.80 time: 2780.38  accu= 20  iou= 0.0929
+batch no. 114  loss: 0.81 time: 2786.53  accu= 18  iou= 0.0051
+step loss:  0.70 accu= 0.94  iou=0.0655
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 115  loss: 1.03 time: 2793.31  accu= 17  iou= 0.1418
+batch no. 116  loss: 1.14 time: 2799.50  accu= 17  iou= 0.0891
+batch no. 117  loss: 0.98 time: 2805.60  accu= 16  iou= 0.1005
+batch no. 118  loss: 0.58 time: 2811.66  accu= 19  iou= 0.1434
+batch no. 119  loss: 1.02 time: 2817.71  accu= 17  iou= 0.1130
+step loss:  0.95 accu= 0.86  iou=0.1176
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 120  loss: 0.69 time: 2824.71  accu= 19  iou= 0.0200
+batch no. 121  loss: 1.09 time: 2830.77  accu= 16  iou= 0.0248
+batch no. 122  loss: 0.86 time: 2836.88  accu= 16  iou= 0.0876
+batch no. 123  loss: 0.85 time: 2842.91  accu= 19  iou= 0.0543
+batch no. 124  loss: 0.83 time: 2849.03  accu= 17  iou= 0.0758
+step loss:  0.86 accu= 0.87  iou=0.0525
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 125  loss: 0.76 time: 2855.87  accu= 19  iou= 0.1254
+batch no. 126  loss: 0.57 time: 2861.89  accu= 18  iou= 0.0969
+batch no. 127  loss: 0.96 time: 2868.05  accu= 18  iou= 0.0424
+batch no. 128  loss: 0.99 time: 2874.16  accu= 17  iou= 0.0190
+batch no. 129  loss: 0.62 time: 2880.35  accu= 18  iou= 0.0871
+step loss:  0.78 accu= 0.90  iou=0.0742
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 130  loss: 1.41 time: 2887.42  accu= 16  iou= 0.0505
+batch no. 131  loss: 0.79 time: 2893.56  accu= 19  iou= 0.0378
+batch no. 132  loss: 0.46 time: 2899.54  accu= 20  iou= 0.0992
+batch no. 133  loss: 0.74 time: 2905.67  accu= 18  iou= 0.1348
+batch no. 134  loss: 0.59 time: 2911.86  accu= 20  iou= 0.1209
+step loss:  0.80 accu= 0.93  iou=0.0886
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 135  loss: 0.58 time: 2918.69  accu= 19  iou= 0.0592
+batch no. 136  loss: 0.60 time: 2924.89  accu= 19  iou= 0.0875
+batch no. 137  loss: 0.74 time: 2930.87  accu= 18  iou= 0.1318
+batch no. 138  loss: 0.98 time: 2936.95  accu= 17  iou= 0.0481
+batch no. 139  loss: 0.90 time: 2942.89  accu= 17  iou= 0.0830
+step loss:  0.76 accu= 0.90  iou=0.0819
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 140  loss: 0.92 time: 2949.74  accu= 17  iou= 0.1561
+batch no. 141  loss: 0.90 time: 2955.84  accu= 18  iou= 0.0843
+batch no. 142  loss: 1.12 time: 2961.92  accu= 15  iou= 0.0564
+batch no. 143  loss: 0.65 time: 2968.03  accu= 20  iou= 0.1722
+batch no. 144  loss: 0.73 time: 2974.05  accu= 18  iou= 0.0826
+step loss:  0.86 accu= 0.88  iou=0.1103
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 145  loss: 1.10 time: 2980.86  accu= 18  iou= 0.0358
+batch no. 146  loss: 0.86 time: 2986.93  accu= 17  iou= 0.1180
+batch no. 147  loss: 0.93 time: 2993.04  accu= 16  iou= 0.0812
+batch no. 148  loss: 0.82 time: 2999.26  accu= 18  iou= 0.0503
+batch no. 149  loss: 0.71 time: 3005.24  accu= 18  iou= 0.1302
+step loss:  0.88 accu= 0.87  iou=0.0831
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 150  loss: 1.02 time: 3012.15  accu= 16  iou= 0.0760
+batch no. 151  loss: 0.89 time: 3018.22  accu= 17  iou= 0.1039
+batch no. 152  loss: 0.88 time: 3024.32  accu= 16  iou= 0.0283
+batch no. 153  loss: 0.77 time: 3030.43  accu= 17  iou= 0.0824
+batch no. 154  loss: 0.72 time: 3036.48  accu= 18  iou= 0.1051
+step loss:  0.86 accu= 0.84  iou=0.0791
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 155  loss: 1.04 time: 3043.39  accu= 15  iou= 0.0768
+batch no. 156  loss: 1.10 time: 3049.37  accu= 16  iou= 0.1469
+batch no. 157  loss: 0.57 time: 3055.56  accu= 19  iou= 0.0536
+batch no. 158  loss: 0.94 time: 3061.62  accu= 18  iou= 0.1080
+batch no. 159  loss: 1.05 time: 3067.70  accu= 16  iou= 0.1095
+step loss:  0.94 accu= 0.84  iou=0.0990
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 160  loss: 0.78 time: 3074.57  accu= 19  iou= 0.1170
+batch no. 161  loss: 0.77 time: 3080.66  accu= 18  iou= 0.1161
+batch no. 162  loss: 0.88 time: 3086.81  accu= 17  iou= 0.1532
+
+batch no. 163  loss: 0.70 time: 3093.02  accu= 18  iou= 0.1106
+batch no. 164  loss: 1.07 time: 3099.12  accu= 14  iou= 0.0408
+step loss:  0.84 accu= 0.86  iou=0.1075
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 165  loss: 0.68 time: 3105.98  accu= 18  iou= 0.1370
+batch no. 166  loss: 0.66 time: 3112.17  accu= 17  iou= 0.0883
+batch no. 167  loss: 1.10 time: 3118.32  accu= 17  iou= 0.1184
+batch no. 168  loss: 0.69 time: 3124.44  accu= 17  iou= 0.0439
+batch no. 169  loss: 1.01 time: 3130.44  accu= 17  iou= 0.0810
+step loss:  0.83 accu= 0.86  iou=0.0937
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 170  loss: 0.82 time: 3137.48  accu= 19  iou= 0.1302
+batch no. 171  loss: 1.15 time: 3143.57  accu= 15  iou= 0.0397
+batch no. 172  loss: 1.20 time: 3149.75  accu= 14  iou= 0.0421
+batch no. 173  loss: 0.91 time: 3155.86  accu= 17  iou= 0.0642
+batch no. 174  loss: 0.61 time: 3161.98  accu= 18  iou= 0.1085
+step loss:  0.94 accu= 0.83  iou=0.0769
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 175  loss: 0.89 time: 3168.97  accu= 17  iou= 0.0356
+batch no. 176  loss: 0.66 time: 3175.03  accu= 18  iou= 0.0364
+batch no. 177  loss: 0.77 time: 3181.22  accu= 18  iou= 0.0971
+batch no. 178  loss: 1.12 time: 3187.28  accu= 17  iou= 0.2243
+batch no. 179  loss: 0.94 time: 3193.44  accu= 15  iou= 0.1139
+step loss:  0.88 accu= 0.85  iou=0.1015
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 180  loss: 1.03 time: 3200.27  accu= 16  iou= 0.0799
+batch no. 181  loss: 0.68 time: 3206.52  accu= 17  iou= 0.0767
+batch no. 182  loss: 0.68 time: 3212.71  accu= 19  iou= 0.0667
+batch no. 183  loss: 0.94 time: 3218.74  accu= 17  iou= 0.0868
+batch no. 184  loss: 1.15 time: 3224.79  accu= 15  iou= 0.0946
+step loss:  0.90 accu= 0.84  iou=0.0809
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 185  loss: 0.77 time: 3231.56  accu= 17  iou= 0.0957
+batch no. 186  loss: 0.91 time: 3237.58  accu= 16  iou= 0.0572
+batch no. 187  loss: 0.98 time: 3243.64  accu= 14  iou= 0.0281
+batch no. 188  loss: 0.71 time: 3249.73  accu= 17  iou= 0.0461
+batch no. 189  loss: 1.17 time: 3255.69  accu= 16  iou= 0.0658
+step loss:  0.91 accu= 0.80  iou=0.0586
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 190  loss: 0.75 time: 3262.62  accu= 19  iou= 0.0251
+batch no. 191  loss: 0.65 time: 3268.77  accu= 18  iou= 0.0668
+batch no. 192  loss: 0.67 time: 3274.86  accu= 18  iou= 0.1496
+batch no. 193  loss: 0.84 time: 3280.93  accu= 18  iou= 0.1084
+batch no. 194  loss: 0.63 time: 3287.09  accu= 18  iou= 0.0525
+step loss:  0.71 accu= 0.91  iou=0.0805
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 195  loss: 1.30 time: 3293.90  accu= 14  iou= 0.0725
+batch no. 196  loss: 0.64 time: 3299.97  accu= 18  iou= 0.1131
+batch no. 197  loss: 0.62 time: 3306.07  accu= 19  iou= 0.0549
+batch no. 198  loss: 1.20 time: 3312.12  accu= 16  iou= 0.1373
+batch no. 199  loss: 0.85 time: 3318.23  accu= 16  iou= 0.0558
+step loss:  0.92 accu= 0.83  iou=0.0867
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 200  loss: 0.83 time: 3325.09  accu= 16  iou= 0.0967
+batch no. 201  loss: 1.23 time: 3331.24  accu= 18  iou= 0.0270
+batch no. 202  loss: 1.00 time: 3337.40  accu= 18  iou= 0.1059
+batch no. 203  loss: 0.89 time: 3343.48  accu= 19  iou= 0.0391
+batch no. 204  loss: 0.68 time: 3349.56  accu= 17  iou= 0.0967
+step loss:  0.92 accu= 0.88  iou=0.0731
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 205  loss: 0.62 time: 3356.41  accu= 19  iou= 0.1169
+batch no. 206  loss: 0.64 time: 3362.66  accu= 18  iou= 0.0722
+batch no. 207  loss: 0.91 time: 3368.62  accu= 16  iou= 0.1100
+batch no. 208  loss: 0.79 time: 3374.78  accu= 17  iou= 0.0461
+batch no. 209  loss: 0.90 time: 3380.95  accu= 19  iou= 0.0352
+step loss:  0.77 accu= 0.89  iou=0.0761
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 210  loss: 0.80 time: 3387.82  accu= 18  iou= 0.0674
+batch no. 211  loss: 0.79 time: 3393.75  accu= 18  iou= 0.0955
+batch no. 212  loss: 0.82 time: 3399.78  accu= 19  iou= 0.0614
+batch no. 213  loss: 0.74 time: 3405.87  accu= 18  iou= 0.0650
+batch no. 214  loss: 0.99 time: 3411.91  accu= 17  iou= 0.0352
+step loss:  0.83 accu= 0.90  iou=0.0649
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 215  loss: 0.87 time: 3418.89  accu= 18  iou= 0.0600
+batch no. 216  loss: 0.93 time: 3424.95  accu= 18  iou= 0.0585
+batch no. 217  loss: 0.99 time: 3431.06  accu= 17  iou= 0.0895
+batch no. 218  loss: 0.84 time: 3437.08  accu= 17  iou= 0.0463
+batch no. 219  loss: 0.76 time: 3443.15  accu= 18  iou= 0.0638
+step loss:  0.88 accu= 0.88  iou=0.0636
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 220  loss: 1.08 time: 3450.03  accu= 16  iou= 0.0300
+batch no. 221  loss: 0.77 time: 3456.05  accu= 17  iou= 0.0586
+batch no. 222  loss: 1.09 time: 3462.15  accu= 14  iou= 0.0480
+batch no. 223  loss: 0.84 time: 3468.20  accu= 19  iou= 0.1471
+batch no. 224  loss: 1.23 time: 3474.48  accu= 16  iou= 0.1166
+step loss:  1.00 accu= 0.82  iou=0.0801
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 225  loss: 0.54 time: 3481.39  accu= 19  iou= 0.0268
+batch no. 226  loss: 0.89 time: 3487.43  accu= 15  iou= 0.0809
+batch no. 227  loss: 0.74 time: 3493.47  accu= 18  iou= 0.0496
+batch no. 228  loss: 1.01 time: 3499.57  accu= 17  iou= 0.0712
+batch no. 229  loss: 0.87 time: 3505.82  accu= 18  iou= 0.0377
+step loss:  0.81 accu= 0.87  iou=0.0532
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 230  loss: 0.56 time: 3512.74  accu= 18  iou= 0.1549
+batch no. 231  loss: 0.92 time: 3518.85  accu= 17  iou= 0.0699
+batch no. 232  loss: 0.58 time: 3524.98  accu= 19  iou= 0.0685
+batch no. 233  loss: 0.67 time: 3530.96  accu= 19  iou= 0.0708
+batch no. 234  loss: 0.53 time: 3537.05  accu= 18  iou= 0.0940
+step loss:  0.65 accu= 0.91  iou=0.0916
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 235  loss: 0.95 time: 3543.91  accu= 15  iou= 0.0675
+batch no. 236  loss: 0.65 time: 3549.91  accu= 17  iou= 0.1252
+batch no. 237  loss: 0.56 time: 3556.00  accu= 19  iou= 0.2012
+batch no. 238  loss: 1.05 time: 3561.98  accu= 15  iou= 0.0842
+batch no. 239  loss: 0.66 time: 3568.04  accu= 19  iou= 0.0677
+step loss:  0.78 accu= 0.85  iou=0.1091
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 240  loss: 0.73 time: 3574.83  accu= 18  iou= 0.0500
+batch no. 241  loss: 0.76 time: 3580.88  accu= 19  iou= 0.1015
+batch no. 242  loss: 1.00 time: 3586.98  accu= 17  iou= 0.0839
+batch no. 243  loss: 0.74 time: 3593.03  accu= 17  iou= 0.1006
+batch no. 244  loss: 0.66 time: 3599.06  accu= 18  iou= 0.0859
+step loss:  0.78 accu= 0.89  iou=0.0844
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 245  loss: 0.84 time: 3605.91  accu= 17  iou= 0.0445
+batch no. 246  loss: 0.92 time: 3611.96  accu= 18  iou= 0.2054
+batch no. 247  loss: 1.70 time: 3617.92  accu= 13  iou= 0.1718
+batch no. 248  loss: 1.18 time: 3624.06  accu= 16  iou= 0.1003
+batch no. 249  loss: 0.58 time: 3630.22  accu= 19  iou= 0.0772
+step loss:  1.04 accu= 0.83  iou=0.1199
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 250  loss: 0.65 time: 3637.04  accu= 18  iou= 0.0697
+batch no. 251  loss: 1.26 time: 3643.07  accu= 14  iou= 0.0477
+batch no. 252  loss: 0.72 time: 3649.15  accu= 18  iou= 0.0562
+batch no. 253  loss: 0.63 time: 3655.23  accu= 20  iou= 0.0890
+batch no. 254  loss: 0.66 time: 3661.42  accu= 17  iou= 0.0407
+step loss:  0.78 accu= 0.87  iou=0.0607
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 255  loss: 0.92 time: 3668.31  accu= 17  iou= 0.0973
+batch no. 256  loss: 1.02 time: 3674.47  accu= 19  iou= 0.0844
+batch no. 257  loss: 0.88 time: 3680.54  accu= 16  iou= 0.0654
+batch no. 258  loss: 0.93 time: 3686.57  accu= 17  iou= 0.0603
+batch no. 259  loss: 1.27 time: 3692.79  accu= 16  iou= 0.1397
+step loss:  1.01 accu= 0.85  iou=0.0894
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 260  loss: 0.93 time: 3699.60  accu= 19  iou= 0.0593
+batch no. 261  loss: 0.91 time: 3705.72  accu= 19  iou= 0.0606
+batch no. 262  loss: 1.04 time: 3711.74  accu= 17  iou= 0.0085
+batch no. 263  loss: 0.91 time: 3717.78  accu= 16  iou= 0.1452
+batch no. 264  loss: 0.85 time: 3723.79  accu= 18  iou= 0.0260
+step loss:  0.93 accu= 0.89  iou=0.0599
+
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 265  loss: 0.93 time: 3730.67  accu= 18  iou= 0.0652
+batch no. 266  loss: 1.15 time: 3736.79  accu= 16  iou= 0.1258
+batch no. 267  loss: 1.32 time: 3742.95  accu= 16  iou= 0.0671
+batch no. 268  loss: 0.56 time: 3749.01  accu= 19  iou= 0.0588
+batch no. 269  loss: 0.77 time: 3755.17  accu= 18  iou= 0.1199
+step loss:  0.95 accu= 0.87  iou=0.0874
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 270  loss: 0.51 time: 3761.96  accu= 20  iou= 0.0889
+batch no. 271  loss: 1.09 time: 3767.99  accu= 15  iou= 0.0441
+batch no. 272  loss: 1.15 time: 3774.04  accu= 17  iou= 0.0751
+batch no. 273  loss: 0.51 time: 3780.13  accu= 19  iou= 0.0323
+batch no. 274  loss: 1.03 time: 3786.19  accu= 17  iou= 0.1925
+step loss:  0.86 accu= 0.88  iou=0.0866
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 275  loss: 0.64 time: 3793.00  accu= 20  iou= 0.0913
+batch no. 276  loss: 0.86 time: 3799.11  accu= 18  iou= 0.0667
+batch no. 277  loss: 0.90 time: 3805.17  accu= 18  iou= 0.0979
+batch no. 278  loss: 0.56 time: 3811.24  accu= 18  iou= 0.0702
+batch no. 279  loss: 0.92 time: 3817.31  accu= 16  iou= 0.0561
+step loss:  0.77 accu= 0.90  iou=0.0764
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 280  loss: 0.60 time: 3824.12  accu= 19  iou= 0.1354
+batch no. 281  loss: 0.81 time: 3830.12  accu= 18  iou= 0.0981
+batch no. 282  loss: 0.65 time: 3836.23  accu= 19  iou= 0.0826
+batch no. 283  loss: 0.73 time: 3842.32  accu= 18  iou= 0.1256
+batch no. 284  loss: 1.16 time: 3848.47  accu= 15  iou= 0.1108
+step loss:  0.79 accu= 0.89  iou=0.1105
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 285  loss: 0.76 time: 3855.25  accu= 18  iou= 0.0321
+batch no. 286  loss: 0.87 time: 3861.42  accu= 17  iou= 0.0541
+batch no. 287  loss: 1.21 time: 3867.52  accu= 13  iou= 0.0278
+batch no. 288  loss: 0.75 time: 3873.58  accu= 18  iou= 0.1013
+batch no. 289  loss: 0.72 time: 3879.66  accu= 19  iou= 0.0853
+step loss:  0.86 accu= 0.85  iou=0.0601
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 290  loss: 0.97 time: 3886.45  accu= 17  iou= 0.0848
+batch no. 291  loss: 1.11 time: 3892.47  accu= 16  iou= 0.0537
+batch no. 292  loss: 0.42 time: 3898.59  accu= 20  iou= 0.0615
+batch no. 293  loss: 1.49 time: 3904.60  accu= 16  iou= 0.0147
+batch no. 294  loss: 0.43 time: 3910.66  accu= 19  iou= 0.1149
+step loss:  0.88 accu= 0.88  iou=0.0659
+torch.Size([100, 3, 360, 640]) torch.FloatTensor
+batch no. 295  loss: 0.91 time: 3917.57  accu= 17  iou= 0.0979
+batch no. 296  loss: 0.92 time: 3923.70  accu= 18  iou= 0.0842
+batch no. 297  loss: 0.66 time: 3929.73  accu= 20  iou= 0.0715
+batch no. 298  loss: 0.69 time: 3935.80  accu= 18  iou= 0.0928
+batch no. 299  loss: 0.70 time: 3942.07  accu= 17  iou= 0.0485
+step loss:  0.77 accu= 0.90  iou=0.0790
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 0  loss: 0.93 time: 3945.33  accu= 17  iou= 0.0511
+small_batch no. 1  loss: 0.66 time: 3947.95  accu= 20  iou= 0.0538
+small_batch no. 2  loss: 0.69 time: 3950.63  accu= 16  iou= 0.0912
+small_batch no. 3  loss: 1.11 time: 3953.28  accu= 17  iou= 0.0192
+small_batch no. 4  loss: 1.03 time: 3955.96  accu= 16  iou= 0.0333
+small_step loss:  0.88 accu= 0.86  iou=0.0497
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 5  loss: 0.87 time: 3959.58  accu= 17  iou= 0.0966
+small_batch no. 6  loss: 0.86 time: 3962.29  accu= 18  iou= 0.2004
+small_batch no. 7  loss: 1.08 time: 3965.03  accu= 15  iou= 0.1302
+small_batch no. 8  loss: 0.90 time: 3967.74  accu= 16  iou= 0.0705
+small_batch no. 9  loss: 1.07 time: 3970.44  accu= 18  iou= 0.0724
+small_step loss:  0.95 accu= 0.84  iou=0.1140
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 10  loss: 0.53 time: 3973.81  accu= 20  iou= 0.0784
+small_batch no. 11  loss: 1.01 time: 3976.47  accu= 17  iou= 0.0841
+small_batch no. 12  loss: 0.61 time: 3979.19  accu= 18  iou= 0.0920
+small_batch no. 13  loss: 0.75 time: 3981.90  accu= 19  iou= 0.0846
+small_batch no. 14  loss: 0.97 time: 3984.47  accu= 15  iou= 0.1149
+small_step loss:  0.77 accu= 0.89  iou=0.0908
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 15  loss: 0.99 time: 3987.77  accu= 17  iou= 0.1459
+small_batch no. 16  loss: 0.84 time: 3990.38  accu= 19  iou= 0.0325
+small_batch no. 17  loss: 0.83 time: 3993.08  accu= 17  iou= 0.0838
+small_batch no. 18  loss: 0.63 time: 3995.73  accu= 19  iou= 0.0307
+small_batch no. 19  loss: 0.74 time: 3998.56  accu= 18  iou= 0.0497
+small_step loss:  0.81 accu= 0.90  iou=0.0685
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 20  loss: 0.95 time: 4002.14  accu= 17  iou= 0.0472
+small_batch no. 21  loss: 0.75 time: 4004.79  accu= 18  iou= 0.0948
+small_batch no. 22  loss: 0.78 time: 4007.59  accu= 18  iou= 0.1470
+small_batch no. 23  loss: 0.59 time: 4010.20  accu= 18  iou= 0.0471
+small_batch no. 24  loss: 0.56 time: 4012.86  accu= 20  iou= 0.0859
+small_step loss:  0.73 accu= 0.91  iou=0.0844
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 25  loss: 1.52 time: 4016.27  accu= 14  iou= 0.0178
+small_batch no. 26  loss: 0.91 time: 4019.00  accu= 18  iou= 0.0626
+small_batch no. 27  loss: 0.80 time: 4021.62  accu= 17  iou= 0.1312
+small_batch no. 28  loss: 0.78 time: 4024.18  accu= 18  iou= 0.0892
+small_batch no. 29  loss: 0.79 time: 4026.79  accu= 18  iou= 0.0693
+small_step loss:  0.96 accu= 0.85  iou=0.0740
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 30  loss: 0.66 time: 4030.10  accu= 17  iou= 0.0845
+small_batch no. 31  loss: 0.96 time: 4032.65  accu= 17  iou= 0.0578
+small_batch no. 32  loss: 0.90 time: 4035.35  accu= 19  iou= 0.0899
+small_batch no. 33  loss: 0.83 time: 4037.96  accu= 17  iou= 0.1091
+small_batch no. 34  loss: 0.88 time: 4040.46  accu= 17  iou= 0.0907
+small_step loss:  0.85 accu= 0.87  iou=0.0864
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 35  loss: 0.55 time: 4043.74  accu= 19  iou= 0.2145
+small_batch no. 36  loss: 0.72 time: 4046.38  accu= 19  iou= 0.0440
+small_batch no. 37  loss: 1.06 time: 4049.08  accu= 17  iou= 0.1325
+small_batch no. 38  loss: 0.93 time: 4051.86  accu= 16  iou= 0.0719
+small_batch no. 39  loss: 0.80 time: 4054.55  accu= 18  iou= 0.0882
+small_step loss:  0.81 accu= 0.89  iou=0.1102
+test: torch.Size([100, 3, 360, 640]) torch.FloatTensor
+small_batch no. 40  loss: 0.81 time: 4057.96  accu= 17  iou= 0.1212
+small_batch no. 41  loss: 0.85 time: 4060.63  accu= 18  iou= 0.0583
+small_batch no. 42  loss: 1.02 time: 4063.27  accu= 17  iou= 0.0973
+small_batch no. 43  loss: 0.83 time: 4066.01  accu= 18  iou= 0.0721
+small_batch no. 44  loss: 1.24 time: 4068.71  accu= 15  iou= 0.0955
+small_step loss:  0.95 accu= 0.85  iou=0.0889
+small loss: 0.86 accu= 0.87  iou=0.0852
